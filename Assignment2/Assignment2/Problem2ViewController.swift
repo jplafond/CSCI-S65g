@@ -12,9 +12,6 @@ class Problem2ViewController: UIViewController {
 
     @IBOutlet weak var displayText: UITextView!
     
-    // Size of the matrix
-    let size = 10
-    
     // Shifts to find row and column of neighbouring cells
     let shifts = [-1, 0, 1]
     
@@ -54,7 +51,7 @@ class Problem2ViewController: UIViewController {
         let aliveBefore = countLivingCells(before)
         displayText.text = "The number of cells alive before is \(aliveBefore)."
         
-        let after = step(before)
+        let after = step2(before)
         
         // Displaying number of alive cells in 'after' grid
         let aliveAfter = countLivingCells(after)
