@@ -56,12 +56,13 @@ func countNeighboursAlive(cellGrid: [[Bool]], row: Int, column: Int) -> Int {
             // Ignoring the cell itself
             if !(xShift == 0 && yShift == 0) {
                 
-                // Handling neighbours for cells along the edges
+                // Handling wrapping for cells along the edges
                 var neighbouringColumn = (column + xShift) % size
                 if neighbouringColumn == -1 {
                     neighbouringColumn += size
                 }
                 
+                // Handling wrapping for cells along the edges
                 var neighbouringRow = (row + yShift) % size
                 if neighbouringRow == -1 {
                     neighbouringRow += size
