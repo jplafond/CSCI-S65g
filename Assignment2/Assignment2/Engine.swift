@@ -62,7 +62,7 @@ func countNeighboursAlive(cellGrid: [[Bool]], cellNeighbours: [(Int, Int)]) -> I
     return numberOfNeigbours
 }
 
-
+// Return array of neighbours to a given cell
 func neighbours(cellCoordinates: (Int, Int)) -> [(Int, Int)]{
     var neighbouringCells: [(Int, Int)] = []
     for yShift in shifts {
