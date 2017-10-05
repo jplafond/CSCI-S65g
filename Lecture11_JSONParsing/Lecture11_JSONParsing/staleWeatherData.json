@@ -1,0 +1,735 @@
+{
+  "response": {
+    "version": "0.1",
+    "termsofService": "http:\/\/www.wunderground.com\/weather\/api\/d\/terms.html",
+    "features": {
+      "geolookup": 1,
+      "forecast": 1
+    }
+  },
+  "location": {
+    "type": "CITY",
+    "country": "US",
+    "country_iso3166": "US",
+    "country_name": "USA",
+    "state": "MA",
+    "city": "Somerville",
+    "tz_short": "EDT",
+    "tz_long": "America\/New_York",
+    "lat": "42.40000153",
+    "lon": "-71.12000275",
+    "zip": "02144",
+    "magic": "1",
+    "wmo": "99999",
+    "l": "\/q\/zmw:02144.1.99999",
+    "requesturl": "US\/MA\/Somerville.html",
+    "wuiurl": "https:\/\/www.wunderground.com\/US\/MA\/Somerville.html",
+    "nearby_weather_stations": {
+      "airport": {
+        "station": [
+          {
+            "city": "Boston",
+            "state": "MA",
+            "country": "US",
+            "icao": "KBOS",
+            "lat": "42.36000061",
+            "lon": "-71.00000000"
+          },
+          {
+            "city": "Bedford",
+            "state": "MA",
+            "country": "US",
+            "icao": "KBED",
+            "lat": "42.47000122",
+            "lon": "-71.29000092"
+          },
+          {
+            "city": "East Milton",
+            "state": "MA",
+            "country": "US",
+            "icao": "KMQE",
+            "lat": "42.20999908",
+            "lon": "-71.11000061"
+          },
+          {
+            "city": "Norwood",
+            "state": "MA",
+            "country": "US",
+            "icao": "KOWD",
+            "lat": "42.18999863",
+            "lon": "-71.16999817"
+          }
+        ]
+      },
+      "pws": {
+        "station": [
+          {
+            "neighborhood": "Somerville",
+            "city": "Somerville",
+            "state": "MA",
+            "country": "US",
+            "id": "KMASOMER53",
+            "lat": 42.399235,
+            "lon": -71.121704,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Davis Square in Somerville",
+            "city": "Somerville",
+            "state": "MA",
+            "country": "US",
+            "id": "KMASOMER48",
+            "lat": 42.400345,
+            "lon": -71.12281,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Tufts",
+            "city": "Somerville",
+            "state": "MA",
+            "country": "US",
+            "id": "KMASOMER44",
+            "lat": 42.402313,
+            "lon": -71.123253,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Hancock Bike Path",
+            "city": "Somerville",
+            "state": "MA",
+            "country": "US",
+            "id": "KMASOMER61",
+            "lat": 42.393936,
+            "lon": -71.114845,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Somerville Davis Square",
+            "city": "Somerville",
+            "state": "MA",
+            "country": "US",
+            "id": "KMASOMER62",
+            "lat": 42.395512,
+            "lon": -71.112328,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Tufts University",
+            "city": "Medford",
+            "state": "MA",
+            "country": "US",
+            "id": "KMAMEDFO17",
+            "lat": 42.408577,
+            "lon": -71.118286,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Albion",
+            "city": "Somerville",
+            "state": "MA",
+            "country": "US",
+            "id": "KMASOMER9",
+            "lat": 42.391739,
+            "lon": -71.112427,
+            "distance_km": 1,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Hillside",
+            "city": "Medford",
+            "state": "MA",
+            "country": "US",
+            "id": "KMAMEDFO34",
+            "lat": 42.410072,
+            "lon": -71.118439,
+            "distance_km": 1,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "West Somerville, MA",
+            "city": "Somerville",
+            "state": "MA",
+            "country": "US",
+            "id": "KMASOMER60",
+            "lat": 42.404793,
+            "lon": -71.132713,
+            "distance_km": 1,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Neighborhood Nine",
+            "city": "Cambridge",
+            "state": "MA",
+            "country": "US",
+            "id": "KMACAMBR35",
+            "lat": 42.386368,
+            "lon": -71.121513,
+            "distance_km": 1,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Medford, MA",
+            "city": "Medford",
+            "state": "MA",
+            "country": "US",
+            "id": "KMAMEDFO31",
+            "lat": 42.414062,
+            "lon": -71.123375,
+            "distance_km": 1,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Somerville",
+            "city": "Medford",
+            "state": "MA",
+            "country": "US",
+            "id": "KMAMEDFO29",
+            "lat": 42.391888,
+            "lon": -71.10038,
+            "distance_km": 1,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Emerson St. Across from Police Station",
+            "city": "Medford",
+            "state": "MA",
+            "country": "US",
+            "id": "KMAMEDFO4",
+            "lat": 42.415516,
+            "lon": -71.111511,
+            "distance_km": 1,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Agassiz",
+            "city": "Cambridge",
+            "state": "MA",
+            "country": "US",
+            "id": "KMACAMBR71",
+            "lat": 42.38356,
+            "lon": -71.114128,
+            "distance_km": 1,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Huron Village",
+            "city": "Cambridge",
+            "state": "MA",
+            "country": "US",
+            "id": "KMACAMBR21",
+            "lat": 42.383778,
+            "lon": -71.131264,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Medford",
+            "city": "Medford Hillside",
+            "state": "MA",
+            "country": "US",
+            "id": "KMAMEDFO32",
+            "lat": 42.417259,
+            "lon": -71.132408,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Cambridge Highlands",
+            "city": "Cambridge",
+            "state": "MA",
+            "country": "US",
+            "id": "KMACAMBR29",
+            "lat": 42.390747,
+            "lon": -71.145973,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "West Medford (Harvard\/Boston Ave)",
+            "city": "Medford",
+            "state": "MA",
+            "country": "US",
+            "id": "KMAMEDFO30",
+            "lat": 42.41848,
+            "lon": -71.134476,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Dorf",
+            "city": "Cambridge",
+            "state": "MA",
+            "country": "US",
+            "id": "KMACAMBR87",
+            "lat": 42.382679,
+            "lon": -71.140259,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "West Cambridge",
+            "city": "Cambridge",
+            "state": "MA",
+            "country": "US",
+            "id": "KMACAMBR77",
+            "lat": 42.381783,
+            "lon": -71.138863,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "East Arlington",
+            "city": "Arlington",
+            "state": "MA",
+            "country": "US",
+            "id": "KMAARLIN19",
+            "lat": 42.414982,
+            "lon": -71.144119,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Cambridge",
+            "city": "Cambridge",
+            "state": "MA",
+            "country": "US",
+            "id": "KMACAMBR112",
+            "lat": 42.375488,
+            "lon": -71.129402,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Arlington Center",
+            "city": "Arlington",
+            "state": "MA",
+            "country": "US",
+            "id": "KMAARLIN9",
+            "lat": 42.414703,
+            "lon": -71.148865,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Kelwyn",
+            "city": "Arlington",
+            "state": "MA",
+            "country": "US",
+            "id": "KMAARLIN10",
+            "lat": 42.403931,
+            "lon": -71.155495,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "West Medford",
+            "city": "Medford",
+            "state": "MA",
+            "country": "US",
+            "id": "KMAMEDFO14",
+            "lat": 42.426517,
+            "lon": -71.123611,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Lawrence Estates Garden Society",
+            "city": "Medford",
+            "state": "MA",
+            "country": "US",
+            "id": "KMAMEDFO16",
+            "lat": 42.426685,
+            "lon": -71.118439,
+            "distance_km": 2,
+            "distance_mi": 1
+          }
+        ]
+      }
+    }
+  },
+  "forecast": {
+    "txt_forecast": {
+      "date": "4:19 AM EDT",
+      "forecastday": [
+        {
+          "period": 0,
+          "icon": "chancetstorms",
+          "icon_url": "http:\/\/icons.wxug.com\/i\/c\/k\/chancetstorms.gif",
+          "title": "Tuesday",
+          "fcttext": "Scattered thunderstorms, especially during the afternoon hours. High around 85F. Winds SSW at 10 to 15 mph. Chance of rain 60%.",
+          "fcttext_metric": "Variable clouds with scattered showers and thunderstorms, mainly during the afternoon hours. High around 30C. Winds SSW at 15 to 25 km\/h. Chance of rain 50%.",
+          "pop": "60"
+        },
+        {
+          "period": 1,
+          "icon": "nt_partlycloudy",
+          "icon_url": "http:\/\/icons.wxug.com\/i\/c\/k\/nt_partlycloudy.gif",
+          "title": "Tuesday Night",
+          "fcttext": "Some clouds this evening will give way to mainly clear skies overnight. A stray shower or thunderstorm is possible. Low around 70F. Winds SW at 5 to 10 mph.",
+          "fcttext_metric": "Some clouds this evening will give way to mainly clear skies overnight. A stray shower or thunderstorm is possible. Low 21C. Winds SW at 10 to 15 km\/h.",
+          "pop": "20"
+        },
+        {
+          "period": 2,
+          "icon": "clear",
+          "icon_url": "http:\/\/icons.wxug.com\/i\/c\/k\/clear.gif",
+          "title": "Wednesday",
+          "fcttext": "Mostly sunny skies. High near 90F. Winds SW at 10 to 15 mph.",
+          "fcttext_metric": "Generally sunny despite a few afternoon clouds. High 32C. Winds SW at 15 to 30 km\/h.",
+          "pop": "10"
+        },
+        {
+          "period": 3,
+          "icon": "nt_clear",
+          "icon_url": "http:\/\/icons.wxug.com\/i\/c\/k\/nt_clear.gif",
+          "title": "Wednesday Night",
+          "fcttext": "Clear skies. Low 71F. Winds WSW at 10 to 15 mph.",
+          "fcttext_metric": "Clear. Low 22C. Winds WSW at 15 to 25 km\/h.",
+          "pop": "10"
+        },
+        {
+          "period": 4,
+          "icon": "clear",
+          "icon_url": "http:\/\/icons.wxug.com\/i\/c\/k\/clear.gif",
+          "title": "Thursday",
+          "fcttext": "Generally sunny despite a few afternoon clouds. High around 90F. Winds N at 5 to 10 mph.",
+          "fcttext_metric": "Generally sunny despite a few afternoon clouds. High 32C. Winds NNE at 10 to 15 km\/h.",
+          "pop": "10"
+        },
+        {
+          "period": 5,
+          "icon": "nt_partlycloudy",
+          "icon_url": "http:\/\/icons.wxug.com\/i\/c\/k\/nt_partlycloudy.gif",
+          "title": "Thursday Night",
+          "fcttext": "Cloudy early with partial clearing expected late. A stray shower or thunderstorm is possible. Low 69F. Winds WSW at 5 to 10 mph.",
+          "fcttext_metric": "Cloudy skies early will become partly cloudy later at night. A stray shower or thunderstorm is possible. Low 21C. Winds WSW at 10 to 15 km\/h.",
+          "pop": "20"
+        },
+        {
+          "period": 6,
+          "icon": "clear",
+          "icon_url": "http:\/\/icons.wxug.com\/i\/c\/k\/clear.gif",
+          "title": "Friday",
+          "fcttext": "A few clouds early, otherwise mostly sunny. High near 90F. Winds WSW at 10 to 15 mph.",
+          "fcttext_metric": "Partly cloudy skies. High 32C. Winds WSW at 15 to 25 km\/h.",
+          "pop": "10"
+        },
+        {
+          "period": 7,
+          "icon": "nt_mostlycloudy",
+          "icon_url": "http:\/\/icons.wxug.com\/i\/c\/k\/nt_mostlycloudy.gif",
+          "title": "Friday Night",
+          "fcttext": "Partly cloudy skies in the evening, then becoming cloudy overnight. Low 69F. Winds WNW at 5 to 10 mph.",
+          "fcttext_metric": "Partly cloudy skies early will become overcast later during the night. Low 21C. Winds WNW at 10 to 15 km\/h.",
+          "pop": "10"
+        }
+      ]
+    },
+    "simpleforecast": {
+      "forecastday": [
+        {
+          "date": {
+            "epoch": "1500418800",
+            "pretty": "7:00 PM EDT on July 18, 2017",
+            "day": 18,
+            "month": 7,
+            "year": 2017,
+            "yday": 198,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "July",
+            "monthname_short": "Jul",
+            "weekday_short": "Tue",
+            "weekday": "Tuesday",
+            "ampm": "PM",
+            "tz_short": "EDT",
+            "tz_long": "America\/New_York"
+          },
+          "period": 1,
+          "high": {
+            "fahrenheit": "85",
+            "celsius": "29"
+          },
+          "low": {
+            "fahrenheit": "70",
+            "celsius": "21"
+          },
+          "conditions": "Chance of a Thunderstorm",
+          "icon": "chancetstorms",
+          "icon_url": "http:\/\/icons.wxug.com\/i\/c\/k\/chancetstorms.gif",
+          "skyicon": "",
+          "pop": 60,
+          "qpf_allday": {
+            "in": 0.16,
+            "mm": 4
+          },
+          "qpf_day": {
+            "in": 0.16,
+            "mm": 4
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_day": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_night": {
+            "in": 0,
+            "cm": 0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "SSW",
+            "degrees": 201
+          },
+          "avewind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "SSW",
+            "degrees": 201
+          },
+          "avehumidity": 73,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1500505200",
+            "pretty": "7:00 PM EDT on July 19, 2017",
+            "day": 19,
+            "month": 7,
+            "year": 2017,
+            "yday": 199,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "July",
+            "monthname_short": "Jul",
+            "weekday_short": "Wed",
+            "weekday": "Wednesday",
+            "ampm": "PM",
+            "tz_short": "EDT",
+            "tz_long": "America\/New_York"
+          },
+          "period": 2,
+          "high": {
+            "fahrenheit": "90",
+            "celsius": "32"
+          },
+          "low": {
+            "fahrenheit": "71",
+            "celsius": "22"
+          },
+          "conditions": "Clear",
+          "icon": "clear",
+          "icon_url": "http:\/\/icons.wxug.com\/i\/c\/k\/clear.gif",
+          "skyicon": "",
+          "pop": 10,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_day": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_night": {
+            "in": 0,
+            "cm": 0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "SW",
+            "degrees": 233
+          },
+          "avewind": {
+            "mph": 12,
+            "kph": 19,
+            "dir": "SW",
+            "degrees": 233
+          },
+          "avehumidity": 60,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1500591600",
+            "pretty": "7:00 PM EDT on July 20, 2017",
+            "day": 20,
+            "month": 7,
+            "year": 2017,
+            "yday": 200,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "July",
+            "monthname_short": "Jul",
+            "weekday_short": "Thu",
+            "weekday": "Thursday",
+            "ampm": "PM",
+            "tz_short": "EDT",
+            "tz_long": "America\/New_York"
+          },
+          "period": 3,
+          "high": {
+            "fahrenheit": "90",
+            "celsius": "32"
+          },
+          "low": {
+            "fahrenheit": "69",
+            "celsius": "21"
+          },
+          "conditions": "Clear",
+          "icon": "clear",
+          "icon_url": "http:\/\/icons.wxug.com\/i\/c\/k\/clear.gif",
+          "skyicon": "",
+          "pop": 10,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_day": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_night": {
+            "in": 0,
+            "cm": 0
+          },
+          "maxwind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "N",
+            "degrees": 349
+          },
+          "avewind": {
+            "mph": 8,
+            "kph": 13,
+            "dir": "N",
+            "degrees": 349
+          },
+          "avehumidity": 54,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1500678000",
+            "pretty": "7:00 PM EDT on July 21, 2017",
+            "day": 21,
+            "month": 7,
+            "year": 2017,
+            "yday": 201,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "July",
+            "monthname_short": "Jul",
+            "weekday_short": "Fri",
+            "weekday": "Friday",
+            "ampm": "PM",
+            "tz_short": "EDT",
+            "tz_long": "America\/New_York"
+          },
+          "period": 4,
+          "high": {
+            "fahrenheit": "90",
+            "celsius": "32"
+          },
+          "low": {
+            "fahrenheit": "69",
+            "celsius": "21"
+          },
+          "conditions": "Clear",
+          "icon": "clear",
+          "icon_url": "http:\/\/icons.wxug.com\/i\/c\/k\/clear.gif",
+          "skyicon": "",
+          "pop": 10,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_day": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_night": {
+            "in": 0,
+            "cm": 0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "WSW",
+            "degrees": 254
+          },
+          "avewind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "WSW",
+            "degrees": 254
+          },
+          "avehumidity": 50,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ]
+    }
+  }
+}

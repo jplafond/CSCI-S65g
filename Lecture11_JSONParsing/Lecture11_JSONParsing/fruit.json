@@ -1,0 +1,55 @@
+{
+    "fruits": [
+               "apple",
+               "banana",
+               "cherry",
+               "date",
+               "eggplant",
+               "fig",
+               "grapefruit"
+               ],
+    "types": [
+              {
+              "banana": {
+                  "color": "yellow",
+                  "howTasty": 7
+                  }
+              },
+              {
+              "apple": {
+                  "color": "green",
+                  "howTasty": 5
+                  }
+              },
+              {
+              "date": {
+                  "color": "brown",
+                  "howTasty": 3
+                  }
+              },
+              {
+              "cherry": {
+                  "color": "red",
+                  "howTasty": 4
+                  }
+              },
+              {
+              "eggplant": {
+                  "color": "purple",
+                  "howTasty": 8
+                  }
+              },
+              {
+              "grapefruit": {
+                  "color": "pink",
+                  "howTasty": 10
+                  }
+              },
+              {
+              "fig": {
+                  "color": "black",
+                  "howTasty": 2
+                  }
+              }
+              ]
+}
